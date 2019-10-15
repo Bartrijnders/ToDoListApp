@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Logic/Logic.iml" filepath="$PROJECT_DIR$/Logic/Logic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToDoListApp.iml" filepath="$PROJECT_DIR$/ToDoListApp.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ToDoListApplication/ToDoListApplication.iml" filepath="$PROJECT_DIR$/ToDoListApplication/ToDoListApplication.iml" />
+    </modules>
+  </component>
+</project>
