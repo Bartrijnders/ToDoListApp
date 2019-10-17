@@ -6,7 +6,7 @@ import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
 
-public class Task {
+public class Task implements IToDoListItem {
 
     private String title;
     private boolean checked;
@@ -21,10 +21,12 @@ public class Task {
 
     }
 
+    @Override
     public String getTitle() {
         return title;
     }
 
+    @Override
     public void setTitle(String title) {
         this.title = title;
     }
@@ -54,4 +56,6 @@ public class Task {
         }
         return output.toString();
     }
+
+
 }

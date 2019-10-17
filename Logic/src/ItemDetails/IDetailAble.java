@@ -1,4 +1,6 @@
 package ItemDetails;
 
-public interface IDetailAble {
+import java.io.Serializable;
+
+public interface IDetailAble extends Serializable {
 }

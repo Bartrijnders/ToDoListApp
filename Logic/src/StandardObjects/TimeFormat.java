@@ -1,9 +1,10 @@
 package StandardObjects;
 
+import java.io.Serializable;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 
-public class TimeFormat {
+public class TimeFormat implements Serializable {
 
     private SimpleDateFormat format;
 
