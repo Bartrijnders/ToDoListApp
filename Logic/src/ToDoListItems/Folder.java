@@ -1,13 +1,13 @@
 package ToDoListItems;
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class Folder implements IToDoListItem {
-    private List<IToDoListItem> items;
+    private List<IToDoListItem> items = new ArrayList<>();
     private String title;
 
-    public Folder(List<IToDoListItem> items, String title) {
-        this.items = items;
+    public Folder(String title) {
         this.title = title;
     }
 

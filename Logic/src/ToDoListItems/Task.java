@@ -2,6 +2,7 @@ package ToDoListItems;
 
 import ItemDetails.IDetailAble;
 
+import java.lang.reflect.Type;
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.List;
@@ -45,6 +46,16 @@ public class Task implements IToDoListItem {
 
     public void setDetails(List<IDetailAble> details) {
         this.details = details;
+    }
+
+    public void EditDetail(IDetailAble detailAble){
+       Type type = detailAble.getClass();
+       for(IDetailAble detail : details){
+           if(detail.getClass() == type){
+               details.remove(detail);
+               details.add(detailAble);
+           }
+       }
     }
 
     @Override
